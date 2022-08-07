@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="tinycthread"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\thirdParty\;CMake Files\thirdParty\Eigen\;CMake Files\thirdParty\Eigen\cmake\;CMake Files\thirdParty\nlopt-2.4.2\;CMake Files\thirdParty\graclus1.2\;CMake Files\thirdParty\tinycthread\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\usr\;CMake Files\..\..\..\usr\lib\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.71.0\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.71.0\;CMake Files\..\..\..\usr\local\;CMake Files\..\..\..\usr\local\share\;CMake Files\..\..\..\usr\local\share\OpenCV\;CMake Files\base\;CMake Files\base\image\;CMake Files\base\numeric\;CMake Files\base\pmvs\;CMake Files\main\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/hzx/pmvs2/cmake-build-debug/thirdParty/tinycthread"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/thirdParty/tinycthread/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/thirdParty/tinycthread/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/thirdParty/tinycthread/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/thirdParty/tinycthread/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tinycthread">
+				<Option output="/home/hzx/pmvs2/cmake-build-debug/thirdParty/tinycthread/libtinycthread.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hzx/pmvs2/cmake-build-debug/thirdParty/tinycthread"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hzx/pmvs2/program/base/image"/>
+					<Add directory="/home/hzx/pmvs2/program/base/numeric"/>
+					<Add directory="/home/hzx/pmvs2/program/base/pmvs"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/api"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/cimg"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/tinycthread"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/Eigen"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/thirdParty/tinycthread/Makefile&quot;  VERBOSE=1 tinycthread"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/thirdParty/tinycthread/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/thirdParty/tinycthread/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/thirdParty/tinycthread/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tinycthread/fast">
+				<Option output="/home/hzx/pmvs2/cmake-build-debug/thirdParty/tinycthread/libtinycthread.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hzx/pmvs2/cmake-build-debug/thirdParty/tinycthread"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hzx/pmvs2/program/base/image"/>
+					<Add directory="/home/hzx/pmvs2/program/base/numeric"/>
+					<Add directory="/home/hzx/pmvs2/program/base/pmvs"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/api"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/cimg"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/tinycthread"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/Eigen"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/thirdParty/tinycthread/Makefile&quot;  VERBOSE=1 tinycthread/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/thirdParty/tinycthread/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/thirdParty/tinycthread/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/thirdParty/tinycthread/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/tinycthread/rwmutex.cpp">
+			<Option target="tinycthread"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/tinycthread/rwmutex.h">
+			<Option target="tinycthread"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/tinycthread/tinycthread.c">
+			<Option target="tinycthread"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/tinycthread/tinycthread.h">
+			<Option target="tinycthread"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\thirdParty\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/Eigen/cmake/FindEigen3.cmake">
+			<Option virtualFolder="CMake Files\thirdParty\Eigen\cmake\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\thirdParty\nlopt-2.4.2\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/config.cmake.h.in">
+			<Option virtualFolder="CMake Files\thirdParty\nlopt-2.4.2\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\thirdParty\graclus1.2\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/tinycthread/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\thirdParty\tinycthread\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/../../../usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/../../../usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/../../../usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.71.0/boost_headers-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/../../../usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.71.0/boost_headers-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\base\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/image/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\base\image\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/numeric/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\base\numeric\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/pmvs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\base\pmvs\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/main/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\main\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

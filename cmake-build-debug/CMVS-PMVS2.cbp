@@ -1,0 +1,1298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CMVS-PMVS2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\thirdParty\;CMake Files\thirdParty\Eigen\;CMake Files\thirdParty\Eigen\cmake\;CMake Files\thirdParty\nlopt-2.4.2\;CMake Files\thirdParty\graclus1.2\;CMake Files\thirdParty\tinycthread\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\usr\;CMake Files\..\..\..\usr\lib\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.71.0\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.71.0\;CMake Files\..\..\..\usr\local\;CMake Files\..\..\..\usr\local\share\;CMake Files\..\..\..\usr\local\share\OpenCV\;CMake Files\base\;CMake Files\base\image\;CMake Files\base\numeric\;CMake Files\base\pmvs\;CMake Files\main\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/hzx/pmvs2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/hzx/pmvs2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/hzx/pmvs2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/hzx/pmvs2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/hzx/pmvs2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/hzx/pmvs2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/hzx/pmvs2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="image_lib">
+				<Option output="/home/hzx/pmvs2/cmake-build-debug/base/image/libimage_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hzx/pmvs2/cmake-build-debug/base/image"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hzx/pmvs2/program/base/image"/>
+					<Add directory="/home/hzx/pmvs2/program/base/numeric"/>
+					<Add directory="/home/hzx/pmvs2/program/base/pmvs"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/api"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/cimg"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/tinycthread"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/Eigen"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/base/image/Makefile&quot;  VERBOSE=1 image_lib"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/base/image/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/base/image/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/base/image/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="image_lib/fast">
+				<Option output="/home/hzx/pmvs2/cmake-build-debug/base/image/libimage_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hzx/pmvs2/cmake-build-debug/base/image"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hzx/pmvs2/program/base/image"/>
+					<Add directory="/home/hzx/pmvs2/program/base/numeric"/>
+					<Add directory="/home/hzx/pmvs2/program/base/pmvs"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/api"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/cimg"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/tinycthread"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/Eigen"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/base/image/Makefile&quot;  VERBOSE=1 image_lib/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/base/image/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/base/image/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/base/image/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="numeric_lib">
+				<Option output="/home/hzx/pmvs2/cmake-build-debug/base/numeric/libnumeric_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hzx/pmvs2/cmake-build-debug/base/numeric"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hzx/pmvs2/program/base/image"/>
+					<Add directory="/home/hzx/pmvs2/program/base/numeric"/>
+					<Add directory="/home/hzx/pmvs2/program/base/pmvs"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/api"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/cimg"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/tinycthread"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/Eigen"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/base/numeric/Makefile&quot;  VERBOSE=1 numeric_lib"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/base/numeric/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/base/numeric/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/base/numeric/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="numeric_lib/fast">
+				<Option output="/home/hzx/pmvs2/cmake-build-debug/base/numeric/libnumeric_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hzx/pmvs2/cmake-build-debug/base/numeric"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hzx/pmvs2/program/base/image"/>
+					<Add directory="/home/hzx/pmvs2/program/base/numeric"/>
+					<Add directory="/home/hzx/pmvs2/program/base/pmvs"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/api"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/cimg"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/tinycthread"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/Eigen"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/base/numeric/Makefile&quot;  VERBOSE=1 numeric_lib/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/base/numeric/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/base/numeric/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/base/numeric/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pmvs_lib">
+				<Option output="/home/hzx/pmvs2/cmake-build-debug/base/pmvs/libpmvs_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hzx/pmvs2/cmake-build-debug/base/pmvs"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hzx/pmvs2/program/base/image"/>
+					<Add directory="/home/hzx/pmvs2/program/base/numeric"/>
+					<Add directory="/home/hzx/pmvs2/program/base/pmvs"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/api"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/cimg"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/tinycthread"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/Eigen"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/base/pmvs/Makefile&quot;  VERBOSE=1 pmvs_lib"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/base/pmvs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/base/pmvs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/base/pmvs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pmvs_lib/fast">
+				<Option output="/home/hzx/pmvs2/cmake-build-debug/base/pmvs/libpmvs_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hzx/pmvs2/cmake-build-debug/base/pmvs"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hzx/pmvs2/program/base/image"/>
+					<Add directory="/home/hzx/pmvs2/program/base/numeric"/>
+					<Add directory="/home/hzx/pmvs2/program/base/pmvs"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/api"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/cimg"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/tinycthread"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/Eigen"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/base/pmvs/Makefile&quot;  VERBOSE=1 pmvs_lib/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/base/pmvs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/base/pmvs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/base/pmvs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cmvs">
+				<Option output="/home/hzx/pmvs2/cmake-build-debug/main/cmvs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hzx/pmvs2/cmake-build-debug/main"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hzx/pmvs2/program/base/image"/>
+					<Add directory="/home/hzx/pmvs2/program/base/numeric"/>
+					<Add directory="/home/hzx/pmvs2/program/base/pmvs"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/api"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/cimg"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/tinycthread"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/Eigen"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/main/Makefile&quot;  VERBOSE=1 cmvs"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/main/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/main/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/main/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cmvs/fast">
+				<Option output="/home/hzx/pmvs2/cmake-build-debug/main/cmvs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hzx/pmvs2/cmake-build-debug/main"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hzx/pmvs2/program/base/image"/>
+					<Add directory="/home/hzx/pmvs2/program/base/numeric"/>
+					<Add directory="/home/hzx/pmvs2/program/base/pmvs"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/api"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/cimg"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/tinycthread"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/Eigen"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/main/Makefile&quot;  VERBOSE=1 cmvs/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/main/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/main/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/main/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="genOption">
+				<Option output="/home/hzx/pmvs2/cmake-build-debug/main/genOption" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hzx/pmvs2/cmake-build-debug/main"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hzx/pmvs2/program/base/image"/>
+					<Add directory="/home/hzx/pmvs2/program/base/numeric"/>
+					<Add directory="/home/hzx/pmvs2/program/base/pmvs"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/api"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/cimg"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/tinycthread"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/Eigen"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/main/Makefile&quot;  VERBOSE=1 genOption"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/main/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/main/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/main/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="genOption/fast">
+				<Option output="/home/hzx/pmvs2/cmake-build-debug/main/genOption" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hzx/pmvs2/cmake-build-debug/main"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hzx/pmvs2/program/base/image"/>
+					<Add directory="/home/hzx/pmvs2/program/base/numeric"/>
+					<Add directory="/home/hzx/pmvs2/program/base/pmvs"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/api"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/cimg"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/tinycthread"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/Eigen"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/main/Makefile&quot;  VERBOSE=1 genOption/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/main/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/main/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/main/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pmvs2">
+				<Option output="/home/hzx/pmvs2/cmake-build-debug/main/pmvs2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hzx/pmvs2/cmake-build-debug/main"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hzx/pmvs2/program/base/image"/>
+					<Add directory="/home/hzx/pmvs2/program/base/numeric"/>
+					<Add directory="/home/hzx/pmvs2/program/base/pmvs"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/api"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/cimg"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/tinycthread"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/Eigen"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/main/Makefile&quot;  VERBOSE=1 pmvs2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/main/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/main/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/main/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pmvs2/fast">
+				<Option output="/home/hzx/pmvs2/cmake-build-debug/main/pmvs2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hzx/pmvs2/cmake-build-debug/main"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hzx/pmvs2/program/base/image"/>
+					<Add directory="/home/hzx/pmvs2/program/base/numeric"/>
+					<Add directory="/home/hzx/pmvs2/program/base/pmvs"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/api"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/cimg"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/tinycthread"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/Eigen"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/main/Makefile&quot;  VERBOSE=1 pmvs2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/main/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/main/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/main/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nlopt">
+				<Option output="/home/hzx/pmvs2/cmake-build-debug/thirdParty/nlopt-2.4.2/libnlopt.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hzx/pmvs2/cmake-build-debug/thirdParty/nlopt-2.4.2"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hzx/pmvs2/program/base/image"/>
+					<Add directory="/home/hzx/pmvs2/program/base/numeric"/>
+					<Add directory="/home/hzx/pmvs2/program/base/pmvs"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/api"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/cimg"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/tinycthread"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/Eigen"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2"/>
+					<Add directory="/home/hzx/pmvs2/cmake-build-debug/thirdParty/nlopt-2.4.2"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/stogo"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/util"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/direct"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/cdirect"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/praxis"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/luksan"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/crs"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/mlsl"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/mma"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/cobyla"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/newuoa"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/neldermead"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/auglag"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/bobyqa"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/isres"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/slsqp"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/esch"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/thirdParty/nlopt-2.4.2/Makefile&quot;  VERBOSE=1 nlopt"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/thirdParty/nlopt-2.4.2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/thirdParty/nlopt-2.4.2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/thirdParty/nlopt-2.4.2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nlopt/fast">
+				<Option output="/home/hzx/pmvs2/cmake-build-debug/thirdParty/nlopt-2.4.2/libnlopt.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hzx/pmvs2/cmake-build-debug/thirdParty/nlopt-2.4.2"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hzx/pmvs2/program/base/image"/>
+					<Add directory="/home/hzx/pmvs2/program/base/numeric"/>
+					<Add directory="/home/hzx/pmvs2/program/base/pmvs"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/api"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/cimg"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/tinycthread"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/Eigen"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2"/>
+					<Add directory="/home/hzx/pmvs2/cmake-build-debug/thirdParty/nlopt-2.4.2"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/stogo"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/util"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/direct"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/cdirect"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/praxis"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/luksan"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/crs"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/mlsl"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/mma"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/cobyla"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/newuoa"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/neldermead"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/auglag"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/bobyqa"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/isres"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/slsqp"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/esch"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/thirdParty/nlopt-2.4.2/Makefile&quot;  VERBOSE=1 nlopt/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/thirdParty/nlopt-2.4.2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/thirdParty/nlopt-2.4.2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/thirdParty/nlopt-2.4.2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="graclus_lib">
+				<Option output="/home/hzx/pmvs2/cmake-build-debug/thirdParty/graclus1.2/libgraclus_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hzx/pmvs2/cmake-build-debug/thirdParty/graclus1.2"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DNUMBITS=64"/>
+					<Add directory="/home/hzx/pmvs2/program/base/image"/>
+					<Add directory="/home/hzx/pmvs2/program/base/numeric"/>
+					<Add directory="/home/hzx/pmvs2/program/base/pmvs"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/api"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/cimg"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/tinycthread"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/Eigen"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/thirdParty/graclus1.2/Makefile&quot;  VERBOSE=1 graclus_lib"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/thirdParty/graclus1.2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/thirdParty/graclus1.2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/thirdParty/graclus1.2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="graclus_lib/fast">
+				<Option output="/home/hzx/pmvs2/cmake-build-debug/thirdParty/graclus1.2/libgraclus_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hzx/pmvs2/cmake-build-debug/thirdParty/graclus1.2"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DNUMBITS=64"/>
+					<Add directory="/home/hzx/pmvs2/program/base/image"/>
+					<Add directory="/home/hzx/pmvs2/program/base/numeric"/>
+					<Add directory="/home/hzx/pmvs2/program/base/pmvs"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/api"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/cimg"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/tinycthread"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/Eigen"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/thirdParty/graclus1.2/Makefile&quot;  VERBOSE=1 graclus_lib/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/thirdParty/graclus1.2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/thirdParty/graclus1.2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/thirdParty/graclus1.2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tinycthread">
+				<Option output="/home/hzx/pmvs2/cmake-build-debug/thirdParty/tinycthread/libtinycthread.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hzx/pmvs2/cmake-build-debug/thirdParty/tinycthread"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hzx/pmvs2/program/base/image"/>
+					<Add directory="/home/hzx/pmvs2/program/base/numeric"/>
+					<Add directory="/home/hzx/pmvs2/program/base/pmvs"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/api"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/cimg"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/tinycthread"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/Eigen"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/thirdParty/tinycthread/Makefile&quot;  VERBOSE=1 tinycthread"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/thirdParty/tinycthread/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/thirdParty/tinycthread/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/thirdParty/tinycthread/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tinycthread/fast">
+				<Option output="/home/hzx/pmvs2/cmake-build-debug/thirdParty/tinycthread/libtinycthread.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hzx/pmvs2/cmake-build-debug/thirdParty/tinycthread"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hzx/pmvs2/program/base/image"/>
+					<Add directory="/home/hzx/pmvs2/program/base/numeric"/>
+					<Add directory="/home/hzx/pmvs2/program/base/pmvs"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/api"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/cimg"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/tinycthread"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/Eigen"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/thirdParty/tinycthread/Makefile&quot;  VERBOSE=1 tinycthread/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/thirdParty/tinycthread/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/thirdParty/tinycthread/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/thirdParty/tinycthread/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/hzx/pmvs2/base/image/camera.cc">
+			<Option target="image_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/image/camera.h">
+			<Option target="image_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/image/image.cc">
+			<Option target="image_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/image/image.h">
+			<Option target="image_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/image/photo.cc">
+			<Option target="image_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/image/photo.h">
+			<Option target="image_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/image/photoSetS.cc">
+			<Option target="image_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/image/photoSetS.h">
+			<Option target="image_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/numeric/mat2.h">
+			<Option target="numeric_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/numeric/mat3.h">
+			<Option target="numeric_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/numeric/mat4.h">
+			<Option target="numeric_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/numeric/mylapack.cc">
+			<Option target="numeric_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/numeric/mylapack.h">
+			<Option target="numeric_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/numeric/vec2.h">
+			<Option target="numeric_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/numeric/vec3.h">
+			<Option target="numeric_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/numeric/vec4.h">
+			<Option target="numeric_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/pmvs/detectFeatures.cc">
+			<Option target="pmvs_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/pmvs/detectFeatures.h">
+			<Option target="pmvs_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/pmvs/detector.cc">
+			<Option target="pmvs_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/pmvs/detector.h">
+			<Option target="pmvs_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/pmvs/dog.cc">
+			<Option target="pmvs_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/pmvs/dog.h">
+			<Option target="pmvs_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/pmvs/expand.cc">
+			<Option target="pmvs_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/pmvs/expand.h">
+			<Option target="pmvs_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/pmvs/filter.cc">
+			<Option target="pmvs_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/pmvs/filter.h">
+			<Option target="pmvs_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/pmvs/findMatch.cc">
+			<Option target="pmvs_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/pmvs/findMatch.h">
+			<Option target="pmvs_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/pmvs/harris.cc">
+			<Option target="pmvs_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/pmvs/harris.h">
+			<Option target="pmvs_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/pmvs/opencvShow.cpp">
+			<Option target="pmvs_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/pmvs/opencvShow.h">
+			<Option target="pmvs_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/pmvs/optim.cc">
+			<Option target="pmvs_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/pmvs/optim.h">
+			<Option target="pmvs_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/pmvs/option.cc">
+			<Option target="pmvs_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/pmvs/option.h">
+			<Option target="pmvs_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/pmvs/patch.cc">
+			<Option target="pmvs_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/pmvs/patch.h">
+			<Option target="pmvs_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/pmvs/patchOrganizerS.cc">
+			<Option target="pmvs_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/pmvs/patchOrganizerS.h">
+			<Option target="pmvs_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/pmvs/point.cc">
+			<Option target="pmvs_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/pmvs/point.h">
+			<Option target="pmvs_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/pmvs/seed.cc">
+			<Option target="pmvs_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/pmvs/seed.h">
+			<Option target="pmvs_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/main/cmvs.cc">
+			<Option target="cmvs"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/main/genOption.cc">
+			<Option target="genOption"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/main/pmvs2.cc">
+			<Option target="pmvs2"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/balance.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/bucketsort.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/ccgraph.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/coarsen.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/compress.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/debug.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/defs.h">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/estmem.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/fm.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/fortran.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/frename.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/graph.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/initpart.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/kmetis.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/kvmetis.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/kwayfm.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/kwayrefine.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/kwayvolfm.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/kwayvolrefine.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/macros.h">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/match.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/mbalance.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/mbalance2.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/mcoarsen.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/memory.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/mesh.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/meshpart.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/metis.h">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/mfm.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/mfm2.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/mincover.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/minitpart.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/minitpart2.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/mkmetis.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/mkwayfmh.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/mkwayrefine.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/mmatch.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/mmd.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/mpmetis.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/mrefine.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/mrefine2.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/mutil.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/myqsort.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/ometis.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/parmetis.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/pmetis.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/pqueue.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/proto.h">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/refine.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/rename.h">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/separator.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/sfm.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/srefine.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/stat.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/struct.h">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/subdomains.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/timing.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/util.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/multilevelLib/mlkkm.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/multilevelLib/wkkm.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/api/deprecated.c">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/api/f77api.c">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/api/f77funcs.h">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/api/f77funcs_.h">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/api/general.c">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/api/nlopt-in.hpp">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/api/nlopt-internal.h">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/api/nlopt.h">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/api/nlopt.hpp">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/api/optimize.c">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/api/options.c">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/auglag/auglag.c">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/auglag/auglag.h">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/bobyqa/bobyqa.c">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/bobyqa/bobyqa.h">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/cdirect/cdirect.c">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/cdirect/cdirect.h">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/cdirect/hybrid.c">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/cobyla/cobyla.c">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/cobyla/cobyla.h">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/crs/crs.c">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/crs/crs.h">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/direct/DIRect.c">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/direct/DIRserial.c">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/direct/DIRsubrout.c">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/direct/direct-internal.h">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/direct/direct.h">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/direct/direct_wrap.c">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/esch/esch.c">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/esch/esch.h">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/isres/isres.c">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/isres/isres.h">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/luksan/luksan.h">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/luksan/mssubs.c">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/luksan/plip.c">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/luksan/plis.c">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/luksan/pnet.c">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/luksan/pssubs.c">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/mlsl/mlsl.c">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/mlsl/mlsl.h">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/mma/ccsa_quadratic.c">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/mma/mma.c">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/mma/mma.h">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/neldermead/neldermead.h">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/neldermead/nldrmd.c">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/neldermead/sbplx.c">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/newuoa/newuoa.c">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/newuoa/newuoa.h">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/praxis/praxis.c">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/praxis/praxis.h">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/slsqp/slsqp.c">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/slsqp/slsqp.h">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/stogo/global.cc">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/stogo/global.h">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/stogo/linalg.cc">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/stogo/linalg.h">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/stogo/local.cc">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/stogo/local.h">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/stogo/stogo.cc">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/stogo/stogo.h">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/stogo/stogo_config.h">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/stogo/tools.cc">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/stogo/tools.h">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/util/mt19937ar.c">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/util/nlopt-util.h">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/util/qsort_r.c">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/util/redblack.c">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/util/redblack.h">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/util/rescale.c">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/util/soboldata.h">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/util/sobolseq.c">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/util/stop.c">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/util/timer.c">
+			<Option target="nlopt"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/tinycthread/rwmutex.cpp">
+			<Option target="tinycthread"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/tinycthread/rwmutex.h">
+			<Option target="tinycthread"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/tinycthread/tinycthread.c">
+			<Option target="tinycthread"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/tinycthread/tinycthread.h">
+			<Option target="tinycthread"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\thirdParty\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/Eigen/cmake/FindEigen3.cmake">
+			<Option virtualFolder="CMake Files\thirdParty\Eigen\cmake\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\thirdParty\nlopt-2.4.2\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/config.cmake.h.in">
+			<Option virtualFolder="CMake Files\thirdParty\nlopt-2.4.2\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\thirdParty\graclus1.2\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/tinycthread/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\thirdParty\tinycthread\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/../../../usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/../../../usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/../../../usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.71.0/boost_headers-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/../../../usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.71.0/boost_headers-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\base\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/image/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\base\image\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/numeric/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\base\numeric\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/pmvs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\base\pmvs\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/main/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\main\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,8 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/hzx/pmvs2
+Found Eigen 3.2.3
+Using system boost library: /usr/include
+Using system JPEG library: /usr/lib/x86_64-linux-gnu/libjpeg.so
+-- NLOPT: Version number 2.4.2 found in configure.ac
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/hzx/pmvs2/cmake-build-debug

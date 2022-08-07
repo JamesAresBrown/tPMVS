@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="graclus_lib"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\thirdParty\;CMake Files\thirdParty\Eigen\;CMake Files\thirdParty\Eigen\cmake\;CMake Files\thirdParty\nlopt-2.4.2\;CMake Files\thirdParty\graclus1.2\;CMake Files\thirdParty\tinycthread\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\usr\;CMake Files\..\..\..\usr\lib\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.71.0\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.71.0\;CMake Files\..\..\..\usr\local\;CMake Files\..\..\..\usr\local\share\;CMake Files\..\..\..\usr\local\share\OpenCV\;CMake Files\base\;CMake Files\base\image\;CMake Files\base\numeric\;CMake Files\base\pmvs\;CMake Files\main\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/hzx/pmvs2/cmake-build-debug/thirdParty/graclus1.2"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/thirdParty/graclus1.2/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/thirdParty/graclus1.2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/thirdParty/graclus1.2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/thirdParty/graclus1.2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="graclus_lib">
+				<Option output="/home/hzx/pmvs2/cmake-build-debug/thirdParty/graclus1.2/libgraclus_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hzx/pmvs2/cmake-build-debug/thirdParty/graclus1.2"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DNUMBITS=64"/>
+					<Add directory="/home/hzx/pmvs2/program/base/image"/>
+					<Add directory="/home/hzx/pmvs2/program/base/numeric"/>
+					<Add directory="/home/hzx/pmvs2/program/base/pmvs"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/api"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/cimg"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/tinycthread"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/Eigen"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/thirdParty/graclus1.2/Makefile&quot;  VERBOSE=1 graclus_lib"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/thirdParty/graclus1.2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/thirdParty/graclus1.2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/thirdParty/graclus1.2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="graclus_lib/fast">
+				<Option output="/home/hzx/pmvs2/cmake-build-debug/thirdParty/graclus1.2/libgraclus_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hzx/pmvs2/cmake-build-debug/thirdParty/graclus1.2"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DNUMBITS=64"/>
+					<Add directory="/home/hzx/pmvs2/program/base/image"/>
+					<Add directory="/home/hzx/pmvs2/program/base/numeric"/>
+					<Add directory="/home/hzx/pmvs2/program/base/pmvs"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/api"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/cimg"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/tinycthread"/>
+					<Add directory="/home/hzx/pmvs2/thirdParty/Eigen"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/thirdParty/graclus1.2/Makefile&quot;  VERBOSE=1 graclus_lib/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/thirdParty/graclus1.2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/thirdParty/graclus1.2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hzx/pmvs2/cmake-build-debug/thirdParty/graclus1.2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/balance.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/bucketsort.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/ccgraph.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/coarsen.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/compress.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/debug.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/defs.h">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/estmem.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/fm.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/fortran.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/frename.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/graph.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/initpart.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/kmetis.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/kvmetis.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/kwayfm.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/kwayrefine.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/kwayvolfm.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/kwayvolrefine.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/macros.h">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/match.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/mbalance.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/mbalance2.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/mcoarsen.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/memory.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/mesh.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/meshpart.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/metis.h">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/mfm.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/mfm2.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/mincover.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/minitpart.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/minitpart2.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/mkmetis.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/mkwayfmh.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/mkwayrefine.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/mmatch.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/mmd.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/mpmetis.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/mrefine.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/mrefine2.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/mutil.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/myqsort.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/ometis.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/parmetis.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/pmetis.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/pqueue.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/proto.h">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/refine.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/rename.h">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/separator.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/sfm.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/srefine.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/stat.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/struct.h">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/subdomains.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/timing.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/metisLib/util.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/multilevelLib/mlkkm.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/multilevelLib/wkkm.c">
+			<Option target="graclus_lib"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\thirdParty\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/Eigen/cmake/FindEigen3.cmake">
+			<Option virtualFolder="CMake Files\thirdParty\Eigen\cmake\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\thirdParty\nlopt-2.4.2\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/nlopt-2.4.2/config.cmake.h.in">
+			<Option virtualFolder="CMake Files\thirdParty\nlopt-2.4.2\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/graclus1.2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\thirdParty\graclus1.2\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/thirdParty/tinycthread/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\thirdParty\tinycthread\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/../../../usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/../../../usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/../../../usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.71.0/boost_headers-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/../../../usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.71.0/boost_headers-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\base\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/image/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\base\image\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/numeric/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\base\numeric\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/base/pmvs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\base\pmvs\"/>
+		</Unit>
+		<Unit filename="/home/hzx/pmvs2/main/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\main\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
